@@ -1,20 +1,71 @@
-.App {
+body{
+background-color: black;
+}
+
+
+.heading{
   text-align: center;
+  background-color: white;
+  padding: 20px;
+  text-transform:uppercase;
+  font-weight: bolder;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(195, 41, 17);
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px grey;
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+
+}
+label{
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  
+}
+button{
+  background-color: rgb(20, 173, 84);
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+  color: white;
+  padding: 5px 20px;
+  font-weight: bold;
+
+}
+button:hover{
+  background-color: rgb(128, 49, 0);
+  box-shadow: 2px 2px 2px rgb(248, 36, 36);
+
+
+}
+input{
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inserted-image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 50px;
 }
-
+span{
+  background-color: rgb(59, 35, 240);
+  font-weight: bold;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin: 20px;
+  color: beige;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #103e38;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +76,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1a95b7;
 }
 
 @keyframes App-logo-spin {
